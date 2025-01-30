@@ -118,12 +118,20 @@
     max-width: 297px;
 }
 
+.max-w-620 {
+    max-width: 620px;
+}
+
 .gap-15 {
     gap: 15px;
 }
 
 .gap-78 {
     gap: 78px;
+}
+
+.pt-54 {
+    padding-top: 54px;
 }
 
 .circle {
@@ -208,9 +216,21 @@
     padding-bottom: 20px;
 }
 
+.footer-box {
+    width: 1140px;
+    background-color: #EAF9FF;
+    border-radius: 4px;
+}
+
 @media (max-width:1360.98px) {
     .dot-img {
         display: none;
+    }
+}
+
+@media (max-width:1199.98px) {
+    .flex-direction-column {
+        flex-direction: column;
     }
 }
 
@@ -242,10 +262,7 @@
     .compare-btn {
         top: 110% !important;
         left: 40%;
-    }
 
-    .flex-direction-column {
-        flex-direction: column;
     }
 }
 

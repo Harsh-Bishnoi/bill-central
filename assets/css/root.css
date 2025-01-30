@@ -19,10 +19,10 @@
     --lh-24: 24px;
     --lh-30: 30px;
     --lh-41: 41px;
+    --lh-52: 52px;
     --lh-70: 70.4px;
     /* opacity */
     --opacity-90: 90%;
-
 }
 
 .font-family-primary {
@@ -92,6 +92,10 @@
     line-height: var(--lh-41)
 }
 
+.lh-52 {
+    line-height: var(--lh-52);
+}
+
 .lh-70 {
     line-height: var(--lh-70)
 }
@@ -111,6 +115,6 @@
 @media (max-width:575.98px) {
     :root {
         --fs-xl: 40px;
-        --fs-md:33px;
+        --fs-md: 33px;
     }
 }
