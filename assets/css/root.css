@@ -1,0 +1,56 @@
+:root {
+    /* font family */
+    /* color */
+    --color-deep-blue: #00171F;
+    /* font size */
+    --fs-extra-small: 14px;
+    --fs-sm: 16px;
+    --fs-base: 20px;
+    --fs-md: 38px;
+    --fs-lg: 48px;
+    --fs-xl: 64px;
+    /* line height */
+    --lh-18: 18.4px;
+    /* opacity */
+    --opacity-90: 90%;
+
+}
+
+/* color */
+.color-deep-blue {
+    color: var(--color-deep-blue);
+}
+
+/* font size */
+.fs-extra-small {
+    font-size: var(--fs-extra-small);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-base {
+    font-size: var(--fs-base);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+/* line height */
+.lh-18 {
+    line-height: var(--lh-18)
+}
+
+.opacity-90 {
+    opacity: var(--opacity-90);
+}
