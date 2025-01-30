@@ -1,7 +1,10 @@
 :root {
     /* font family */
+    --font-family-primary: "Helvetica";
     /* color */
     --color-deep-blue: #00171F;
+    --bg-sky-blue: #00A8E8;
+    --color-prussian-blue: #003459;
     /* font size */
     --fs-extra-small: 14px;
     --fs-sm: 16px;
@@ -10,15 +13,33 @@
     --fs-lg: 48px;
     --fs-xl: 64px;
     /* line height */
+    --lh-17: 17.6px;
     --lh-18: 18.4px;
+    --lh-23: 23px;
+    --lh-24: 24px;
+    --lh-30: 30px;
+    --lh-41: 41px;
+    --lh-70: 70.4px;
     /* opacity */
     --opacity-90: 90%;
 
 }
 
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
 /* color */
 .color-deep-blue {
     color: var(--color-deep-blue);
+}
+
+.color-sky-blue {
+    color: var(--bg-sky-blue);
+}
+
+.color-prussian-blue {
+    color: var(--color-prussian-blue);
 }
 
 /* font size */
@@ -47,10 +68,49 @@
 }
 
 /* line height */
+.lh-17 {
+    line-height: var(--lh-17)
+}
+
 .lh-18 {
     line-height: var(--lh-18)
 }
 
+.lh-23 {
+    line-height: var(--lh-23)
+}
+
+.lh-24 {
+    line-height: var(--lh-24)
+}
+
+.lh-30 {
+    line-height: var(--lh-30)
+}
+
+.lh-41 {
+    line-height: var(--lh-41)
+}
+
+.lh-70 {
+    line-height: var(--lh-70)
+}
+
+/* opacity */
 .opacity-90 {
     opacity: var(--opacity-90);
+}
+
+@media (max-width:767.98px) {
+    :root {
+        --fs-xl: 56px;
+        --lh-70: normal;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --fs-xl: 40px;
+        --fs-md:33px;
+    }
 }
