@@ -50,6 +50,15 @@
     border: none;
 }
 
+.nav-btn:hover {
+    background-color: var(--bg-sky-blue) !important;
+    color: white;
+}
+
+.nav-btn:hover .nav-arrow-svg path {
+    stroke: white !important;
+}
+
 .text-hover:hover {
     color: var(--bg-sky-blue) !important;
     opacity: 100% !important;
@@ -85,7 +94,6 @@
     background-color: var(--bg-sky-blue);
     right: 14%;
     top: 43%;
-
 }
 
 .gap_3 {
@@ -123,6 +131,14 @@
     border: none;
     padding: 12px 20px 12px 20px;
     border-radius: 0px 50px 50px 20px;
+}
+
+.compare-btn:hover {
+    color: var(--color-deep-blue) !important;
+}
+
+.compare-btn:hover .compare-btn-arrow path {
+    stroke: var(--color-deep-blue) !important;
 }
 
 .woman-img {
@@ -206,6 +222,10 @@
     border-radius: 0px 50px 50px 20px;
     border: none;
     background-color: var(--bg-crisp-blue);
+}
+
+.sumbit-btn:hover {
+    background: var(--bg-sky-blue);
 }
 
 .mt-12 {
