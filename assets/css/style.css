@@ -141,6 +141,12 @@
     margin-top: 42px !important;
 }
 
+.logo {
+    display: inline-block;
+    animation: left-move 5s linear infinite;
+    animation-iteration-count: infinite;
+}
+
 /* footer */
 .bg-img-2 {
     background-image: url(../images/png/footer-bg-img.png);
@@ -323,6 +329,17 @@
     .sumbit-btn {
         position: absolute;
         right: 26% !important;
+    }
+
+    @keyframes left-move {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        100% {
+            transform: translate(-100%, 0);
+        }
+
     }
 }
 
