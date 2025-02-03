@@ -52,11 +52,11 @@
 
 .nav-btn:hover {
     background-color: var(--bg-sky-blue) !important;
-    color: white;
+    color: var(--color-white);
 }
 
 .nav-btn:hover .nav-arrow-svg path {
-    stroke: white !important;
+    stroke: var(--color-white) !important;
 }
 
 .text-hover:hover {
@@ -78,8 +78,8 @@
     height: 66px;
     gap: 0px;
     border-radius: 0px 100px 100px 20px;
-    border: 1px solid #00000033;
-    background: #FEFEFE;
+    border: 1px solid var(--color-silverback);
+    background: var(--color-white);
     padding-left: 22px;
 }
 
@@ -194,7 +194,7 @@
     max-width: 476px !important;
     width: 100%;
     height: 66px;
-    border: 1px solid #00000033;
+    border: 1px solid var(--color-silverback);
 }
 
 .sumbit-btn {
@@ -246,12 +246,12 @@
     width: 33.5px;
     height: 33.5px;
     border-radius: 32.66px;
-    border: 0.84px solid #FCFCFC;
+    border: 0.84px solid var(--color-white);
     transition: all 300ms linear;
 }
 
 .line {
-    border-top: 1px solid #FFFFFF33
+    border-top: 1px solid var(--color-carbide);
 }
 
 .gap-51 {
@@ -317,7 +317,7 @@
 
     .end {
         transform: translateY(100%) !important;
-        color: white;
+        color: var(--color-white);
     }
 
     .compare-btn {
