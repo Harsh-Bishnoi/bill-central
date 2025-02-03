@@ -106,13 +106,14 @@
 
 .compare-btn {
     position: absolute;
-    right: 2%;
-    top: 13%;
+    right: 15%;
+    top: 47%;
     background-color: var(--bg-sky-blue);
     width: 137px;
     height: 48px;
-    left: 330px;
+    /* left: 330px; */
     border: none;
+    padding-left: 12px 20px 12px 20px ;
     border-radius: 0px 50px 50px 20px;
 }
 
@@ -131,6 +132,10 @@
 
 .max-w-548 {
     max-width: 548px;
+}
+
+.mt-42 {
+    margin-top: 42px !important;
 }
 
 /* footer */
@@ -199,8 +204,12 @@
     transform: translateY(344%) !important;
 }
 
-.mt-200 {
-    margin-top: 200px;
+.mt-203 {
+    margin-top: 203px !important;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
 }
 
 .mt-68 {
@@ -264,6 +273,24 @@
         left: 40%;
 
     }
+
+    .sumbit-btn {
+        position: absolute;
+        right: 26% !important;
+    }
+}
+
+@media (max-width:767.98px) {
+    .sumbit-btn {
+        right: 19% !important;
+    }
+}
+
+@media (max-width:575.98px) {
+    .sumbit-btn {
+        right: 6% !important;
+    }
+
 }
 
 @media (max-width:475.98px) {
@@ -274,4 +301,53 @@
     .woman-img {
         transform: translateY(30%);
     }
+}
+
+.box {
+    width: 1140px;
+    border-radius: 4px;
+    transform: translateY(-50%);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mb-54 {
+    margin-bottom: 54px;
+}
+
+.ml-8 {
+    margin-left: 8px;
+}
+
+.box-left-img {
+    left: 0;
+    bottom: 0;
+}
+
+.box-right-img {
+    right: 0;
+    top: 0;
+}
+
+.box-input {
+    border-radius: 0px 100px 100px 20px !important;
+    padding: 22px 0 24px 24px;
+    max-width: 476px !important;
+    width: 100%;
+    height: 66px;
+    border: 1px solid #00000033;
+}
+
+.sumbit-btn {
+    padding: 12px 20px 12px 20px;
+    position: absolute;
+    top: 31% !important;
+    right: 30%;
+    border-radius: 0px 50px 50px 20px;
+    border: none;
+    background-color: var(--bg-crisp-blue);
 }

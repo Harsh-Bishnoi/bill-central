@@ -5,6 +5,8 @@
     --color-deep-blue: #00171F;
     --bg-sky-blue: #00A8E8;
     --color-prussian-blue: #003459;
+    --bg-clear-skies: #EAF9FF;
+    --bg-crisp-blue: #007EA7;
     /* font size */
     --fs-extra-small: 14px;
     --fs-sm: 16px;
@@ -40,6 +42,14 @@
 
 .color-prussian-blue {
     color: var(--color-prussian-blue);
+}
+
+.bg-clear-skies {
+    background-color: var(--bg-clear-skies);
+}
+
+.bg-crisp-blue {
+    background-color: var(--bg-crisp-blue);
 }
 
 /* font size */
