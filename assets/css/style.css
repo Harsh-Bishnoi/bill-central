@@ -50,6 +50,11 @@
     border: none;
 }
 
+.text-hover:hover {
+    color: var(--bg-sky-blue) !important;
+    opacity: 100% !important;
+}
+
 /* header */
 .bg-img {
     background-image: url(../images/png/header-bg-img.png);
