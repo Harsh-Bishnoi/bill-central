@@ -249,6 +249,7 @@
     height: 33.5px;
     border-radius: 32.66px;
     border: 0.84px solid #FCFCFC;
+    transition: all 300ms linear;
 }
 
 .max-w-558 {
@@ -281,6 +282,10 @@
 
 .mt-56 {
     margin-top: 56px;
+}
+
+.circle:hover {
+    transform: scale(1.1);
 }
 
 .py-20 {
